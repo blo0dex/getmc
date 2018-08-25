@@ -1,3 +1,22 @@
+<?php
+
+$yii = dirname(__FILE__).'/manage//protected/yii/yii.php';
+$config = dirname(__FILE__).'/manage/protected/config/internal/application.php';
+
+// uncomment the following line to enable more detailed error messages
+//defined('YII_DEBUG') or define('YII_DEBUG',true);
+// how many levels of call stack should be shown in each log message
+defined('YII_TRACE_LEVEL') or define('YII_TRACE_LEVEL',3);
+
+if (!@file_exists(dirname(__FILE__).'/manage/protected/config/config.php'))
+    header('Location: install.php');
+else
+{
+    require_once($yii);
+    Yii::createWebApplication($config)->run();
+}
+?>
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -18,6 +37,7 @@
 
   <body class="text-center">
     <form class="form-signin" action="/manage/index.php?r=site/login" method="post">
+      <input type="hidden" name="<?= Yii::$app->request->csrfParam; ?>" value="<?= Yii::$app->request->csrfToken; ?>" />
       <img class="mb-4" src="../../assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
       <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
       <label for="inputEmail" class="sr-only">Email address</label>
