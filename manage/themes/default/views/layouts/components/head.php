@@ -1,21 +1,5 @@
-<?php
-/**
- *
- *   Copyright © 2010-2017 by xhost.ch GmbH
- *
- *   All rights reserved.
- *
- **/
-?>
 <!doctype html>
 <html lang="en">
-<!--
- -
- -   Copyright © 2010-2017 by xhost.ch GmbH
- -
- -   All rights reserved.
- -
- -->
 <head>
     <meta content="initial-scale=1.0, width=device-width, user-scalable=yes" name="viewport">
     <meta content="yes" name="apple-mobile-web-app-capable">
@@ -24,7 +8,7 @@
     <link rev="made" href="mailto:info@multicraft.org">
     <meta name="description" content="Multicraft: The Minecraft server control panel">
     <meta name="keywords" content="Multicraft, Minecraft, server, management, control panel, hosting">
-    <meta name="author" content="xhost.ch GmbH">
+    <meta name="author" content="Get MC Minecraft hosting">
     <meta charset="UTF-8" />
     <link rel="shortcut icon" href="<?php echo  Yii::app()->request->baseUrl; ?>/favicon.ico" />
 
