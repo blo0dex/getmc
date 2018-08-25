@@ -34,7 +34,7 @@ $this->menu=array(
 
 ?>
 <br/>
-<?php echo Yii::t('mc', 'Welcome to <b>{Multicraft}</b>, the Minecraft server control panel.', array('{Multicraft}'=>CHtml::link('Multicraft', 'http://www.multicraft.org'))) ?><br/>
+<?php echo Yii::t('mc', 'Welcome to the Minecraft server control panel.', array() ?><br/>
 
 <?php if (Yii::app()->user->isGuest && @file_exists(Theme::themeFilePath('images/icons/login_large.png'))): ?>
 <div class="introbar">
