@@ -131,7 +131,7 @@ class SiteController extends Controller
         if(isset($_POST['User']))
         {
             $model->attributes=$_POST['User'];
-            $model->global_role = 'User';
+            $model->global_role = 'user';
             if ($model->name == Yii::app()->user->superuser)
                 $model->name = '';
             if($model->validate())
