@@ -289,6 +289,11 @@ class UserController extends Controller
 
     public function saveButton()
     {
+        // Create server for user
+        require('MulticraftAPI.php');
+        $api = new MulticraftAPI('http://getmc.club/manage/api.php', 'admin', 'eKfeKMUaL$WxSU');
+        throw new CHttpException(404, Yii::t('mc', json_encode($api->getServerStatus(1, true)));
+
         $this->attribs[] = array('label'=>'', 'type'=>'raw',
             'value'=>CHtml::submitButton('Save'),
             'hint'=>'');
