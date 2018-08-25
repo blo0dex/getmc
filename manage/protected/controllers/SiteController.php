@@ -145,6 +145,7 @@ class SiteController extends Controller
                 $response = $api->createServerOn();
                 $server_id = $response['data']['id'];
                 $api->setServerOwner($server_id, $model->id);
+                $api->updateServerConfig($server_id, 'user_jar', 1);
                 Yii::log('Created server id: '.$server_id.' for user '.$model->id);
 
                 $this->redirect(array('site/login', 'registered'=>true));
