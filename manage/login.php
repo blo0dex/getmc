@@ -13,7 +13,7 @@ if (!@file_exists(dirname(__FILE__).'/protected/config/config.php'))
 else
 {
     require_once($yii);
-    #Yii::createWebApplication($config)->run();
+    Yii::createWebApplication($config)->run();
 }
 
 ?>
