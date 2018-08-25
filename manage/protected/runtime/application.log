@@ -1,0 +1,225 @@
+2018/08/21 19:58:22 [error] [system.db.CDbCommand] [User , 85.253.71.69] Error in preparing SQL: select count(*) from `server_config`
+in /var/www/html/multicraft/protected/controllers/InstallController.php (312)
+in /var/www/html/multicraft/protected/controllers/InstallController.php (430)
+in /var/www/html/multicraft/protected/controllers/InstallController.php (294)
+2018/08/21 19:58:22 [error] [system.db.CDbCommand] [User , 85.253.71.69] CDbCommand::execute() failed: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 no such table: server_config. The SQL statement executed was: select count(*) from `server_config`.
+in /var/www/html/multicraft/protected/controllers/InstallController.php (312)
+in /var/www/html/multicraft/protected/controllers/InstallController.php (430)
+in /var/www/html/multicraft/protected/controllers/InstallController.php (294)
+2018/08/21 19:58:22 [error] [system.db.CDbCommand] [User , 85.253.71.69] Error in preparing SQL: select count(*) from `server_config`
+in /var/www/html/multicraft/protected/controllers/InstallController.php (312)
+in /var/www/html/multicraft/protected/controllers/InstallController.php (430)
+in /var/www/html/multicraft/protected/controllers/InstallController.php (298)
+2018/08/21 19:58:22 [error] [system.db.CDbCommand] [User , 85.253.71.69] CDbCommand::execute() failed: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 no such table: server_config. The SQL statement executed was: select count(*) from `server_config`.
+in /var/www/html/multicraft/protected/controllers/InstallController.php (312)
+in /var/www/html/multicraft/protected/controllers/InstallController.php (430)
+in /var/www/html/multicraft/protected/controllers/InstallController.php (298)
+2018/08/21 19:59:17 [error] [system.db.CDbCommand] [User , 85.253.71.69] Error in preparing SQL: select count(*) from `server_config`
+in /var/www/html/multicraft/protected/controllers/InstallController.php (312)
+in /var/www/html/multicraft/protected/controllers/InstallController.php (430)
+in /var/www/html/multicraft/protected/controllers/InstallController.php (294)
+2018/08/21 19:59:17 [error] [system.db.CDbCommand] [User , 85.253.71.69] CDbCommand::execute() failed: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 no such table: server_config. The SQL statement executed was: select count(*) from `server_config`.
+in /var/www/html/multicraft/protected/controllers/InstallController.php (312)
+in /var/www/html/multicraft/protected/controllers/InstallController.php (430)
+in /var/www/html/multicraft/protected/controllers/InstallController.php (294)
+2018/08/21 19:59:36 [error] [system.db.CDbCommand] [User , 85.253.71.69] CDbCommand::execute() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'multicraft_daemon.server_config' doesn't exist. The SQL statement executed was: select count(*) from `server_config`.
+in /var/www/html/multicraft/protected/controllers/InstallController.php (312)
+in /var/www/html/multicraft/protected/controllers/InstallController.php (430)
+in /var/www/html/multicraft/protected/controllers/InstallController.php (294)
+2018/08/21 19:59:36 [error] [system.db.CDbCommand] [User , 85.253.71.69] CDbCommand::execute() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'multicraft_daemon.server_config' doesn't exist. The SQL statement executed was: select count(*) from `server_config`.
+in /var/www/html/multicraft/protected/controllers/InstallController.php (312)
+in /var/www/html/multicraft/protected/controllers/InstallController.php (430)
+in /var/www/html/multicraft/protected/controllers/InstallController.php (298)
+2018/08/21 19:59:45 [error] [system.db.CDbCommand] [User , 85.253.71.69] CDbCommand::execute() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'multicraft_daemon.server_config' doesn't exist. The SQL statement executed was: select count(*) from `server_config`.
+in /var/www/html/multicraft/protected/controllers/InstallController.php (312)
+in /var/www/html/multicraft/protected/controllers/InstallController.php (430)
+in /var/www/html/multicraft/protected/controllers/InstallController.php (294)
+2018/08/21 19:59:45 [error] [system.db.CDbCommand] [User , 85.253.71.69] CDbCommand::execute() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'multicraft_daemon.server_config' doesn't exist. The SQL statement executed was: select count(*) from `server_config`.
+in /var/www/html/multicraft/protected/controllers/InstallController.php (312)
+in /var/www/html/multicraft/protected/controllers/InstallController.php (430)
+in /var/www/html/multicraft/protected/controllers/InstallController.php (294)
+2018/08/21 19:59:45 [error] [system.db.CDbCommand] [User , 85.253.71.69] CDbCommand::execute() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'multicraft_daemon.server_config' doesn't exist. The SQL statement executed was: select count(*) from `server_config`.
+in /var/www/html/multicraft/protected/controllers/InstallController.php (312)
+in /var/www/html/multicraft/protected/controllers/InstallController.php (430)
+in /var/www/html/multicraft/protected/controllers/InstallController.php (298)
+2018/08/21 19:59:49 [error] [system.db.CDbCommand] [User , 85.253.71.69] CDbCommand::execute() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'multicraft_daemon.server_config' doesn't exist. The SQL statement executed was: select count(*) from `server_config`.
+in /var/www/html/multicraft/protected/controllers/InstallController.php (312)
+in /var/www/html/multicraft/protected/controllers/InstallController.php (430)
+in /var/www/html/multicraft/protected/controllers/InstallController.php (294)
+2018/08/21 19:59:49 [error] [system.db.CDbCommand] [User , 85.253.71.69] CDbCommand::execute() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'multicraft_daemon.server_config' doesn't exist. The SQL statement executed was: select count(*) from `server_config`.
+in /var/www/html/multicraft/protected/controllers/InstallController.php (312)
+in /var/www/html/multicraft/protected/controllers/InstallController.php (430)
+in /var/www/html/multicraft/protected/controllers/InstallController.php (298)
+2018/08/21 20:00:30 [info] [application] [User 1, 85.253.71.69] Successful login: admin, forwarding to: Array
+(
+    [0] => install
+    [step] => panel
+)
+
+in /var/www/html/multicraft/protected/controllers/SiteController.php (98)
+in /var/www/html/multicraft/install.php (21)
+2018/08/21 20:00:49 [error] [system.db.CDbCommand] [User 1, 85.253.71.69] CDbCommand::execute() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'multicraft_daemon.server' doesn't exist. The SQL statement executed was: select count(*) from `server`.
+in /var/www/html/multicraft/protected/controllers/InstallController.php (345)
+in /var/www/html/multicraft/protected/controllers/InstallController.php (430)
+in /var/www/html/multicraft/protected/controllers/InstallController.php (303)
+2018/08/21 20:00:51 [error] [system.db.CDbCommand] [User 1, 85.253.71.69] CDbCommand::execute() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'multicraft_daemon.server' doesn't exist. The SQL statement executed was: select count(*) from `server`.
+in /var/www/html/multicraft/protected/controllers/InstallController.php (345)
+in /var/www/html/multicraft/protected/controllers/InstallController.php (430)
+in /var/www/html/multicraft/protected/controllers/InstallController.php (303)
+2018/08/21 20:04:17 [info] [application] [User 1, 85.253.71.69] Updating Setting saveInterval 
+2018/08/21 20:04:17 [info] [application] [User 1, 85.253.71.69] Updating Setting maxChatLines 
+2018/08/21 20:04:17 [info] [application] [User 1, 85.253.71.69] Updating Setting maxLogLines 
+2018/08/21 20:04:17 [info] [application] [User 1, 85.253.71.69] Updating Setting keepBackupCount 
+2018/08/21 20:04:17 [info] [application] [User 1, 85.253.71.69] Updating Setting serversPerPage 
+2018/08/21 20:04:17 [info] [application] [User 1, 85.253.71.69] Updating Setting defaultServerName 
+2018/08/21 20:04:17 [info] [application] [User 1, 85.253.71.69] Updating Setting defaultServerPlayers 
+2018/08/21 20:04:17 [info] [application] [User 1, 85.253.71.69] Updating Setting defaultServerMemory 
+2018/08/21 20:04:17 [info] [application] [User 1, 85.253.71.69] Updating Setting defaultServerIp 
+2018/08/21 20:04:17 [info] [application] [User 1, 85.253.71.69] Updating Setting defaultServerPort 
+2018/08/21 20:04:17 [info] [application] [User 1, 85.253.71.69] Updating Setting minecraftEula 
+2018/08/21 20:04:17 [info] [application] [User 1, 85.253.71.69] Updating Setting defaultServerStartMemory 
+2018/08/21 20:04:17 [info] [application] [User 1, 85.253.71.69] Updating Setting updateChecks 
+2018/08/21 20:04:17 [info] [application] [User 1, 85.253.71.69] Updating Setting anonStats 
+2018/08/21 20:04:17 [info] [application] [User 1, 85.253.71.69] Updating Setting pingInterval 
+2018/08/21 20:04:17 [info] [application] [User 1, 85.253.71.69] Updating Setting allowTimeouts 
+2018/08/21 20:04:17 [info] [application] [User 1, 85.253.71.69] Updating Setting restartDelay 
+2018/08/21 20:04:17 [info] [application] [User 1, 85.253.71.69] Updating Setting crashRestartDelay 
+2018/08/21 20:04:17 [info] [application] [User 1, 85.253.71.69] Updating Setting userSaveDelay 
+2018/08/21 20:04:17 [info] [application] [User 1, 85.253.71.69] Updating Setting userBackupDelay 
+2018/08/21 20:04:17 [info] [application] [User 1, 85.253.71.69] Updating Setting resourceCheckInterval 
+2018/08/21 20:04:17 [info] [application] [User 1, 85.253.71.69] Updating Setting pongMode 
+2018/08/21 20:04:17 [info] [application] [User 1, 85.253.71.69] Updating Setting rateLimit 
+2018/08/21 20:04:17 [info] [application] [User 1, 85.253.71.69] Updating Setting pluginScanDelay 
+2018/08/21 20:04:17 [info] [application] [User 1, 85.253.71.69] Updating Setting savePlayerInfo 
+2018/08/21 20:04:17 [info] [application] [User 1, 85.253.71.69] Updating Setting additionalPorts 
+2018/08/21 20:04:17 [info] [application] [User 1, 85.253.71.69] Updated global settings
+2018/08/21 20:05:18 [info] [application] [User 1, 85.253.71.69] Sending command "updatejar start ::craftbukkit.jar" to all daemons
+2018/08/21 20:05:18 [info] [application] [User 1, 85.253.71.69] Starting download of JAR file 
+2018/08/21 20:06:13 [info] [application] [User 1, 85.253.71.69] Sending command "server 1:refresh" to daemon 1
+2018/08/21 20:06:13 [info] [application] [User 1, 85.253.71.69] Created server 1
+2018/08/21 20:06:13 [info] [application] [User 1, 85.253.71.69] Changing owner of server 1 from  to 1
+2018/08/21 20:06:13 [info] [application] [User 1, 85.253.71.69] Sending command "server 1:load command 1" to daemon 1
+2018/08/21 20:06:13 [info] [application] [User 1, 85.253.71.69] Sending command "server 1:load command 2" to daemon 1
+2018/08/21 20:06:13 [info] [application] [User 1, 85.253.71.69] Sending command "server 1:load command 3" to daemon 1
+2018/08/21 20:06:13 [info] [application] [User 1, 85.253.71.69] Sending command "server 1:load command 4" to daemon 1
+2018/08/21 20:06:13 [info] [application] [User 1, 85.253.71.69] Sending command "server 1:load command 5" to daemon 1
+2018/08/21 20:06:13 [info] [application] [User 1, 85.253.71.69] Sending command "server 1:load command 6" to daemon 1
+2018/08/21 20:06:13 [info] [application] [User 1, 85.253.71.69] Sending command "server 1:load command 7" to daemon 1
+2018/08/21 20:06:13 [info] [application] [User 1, 85.253.71.69] Sending command "server 1:load command 8" to daemon 1
+2018/08/21 20:06:13 [info] [application] [User 1, 85.253.71.69] Sending command "server 1:load command 9" to daemon 1
+2018/08/21 20:06:13 [info] [application] [User 1, 85.253.71.69] Sending command "server 1:load command 10" to daemon 1
+2018/08/21 20:06:13 [info] [application] [User 1, 85.253.71.69] Sending command "server 1:load command 11" to daemon 1
+2018/08/21 20:06:13 [info] [application] [User 1, 85.253.71.69] Sending command "server 1:load command 12" to daemon 1
+2018/08/21 20:06:13 [info] [application] [User 1, 85.253.71.69] Sending command "server 1:load command 13" to daemon 1
+2018/08/21 20:06:13 [info] [application] [User 1, 85.253.71.69] Sending command "server 1:load command 14" to daemon 1
+2018/08/21 20:06:13 [info] [application] [User 1, 85.253.71.69] Sending command "server 1:load command 15" to daemon 1
+2018/08/21 20:06:13 [info] [application] [User 1, 85.253.71.69] Sending command "server 1:load command 16" to daemon 1
+2018/08/21 20:06:13 [info] [application] [User 1, 85.253.71.69] Sending command "server 1:load command 17" to daemon 1
+2018/08/21 20:06:13 [info] [application] [User 1, 85.253.71.69] Sending command "server 1:run_s:builtin:script setup" to daemon 1
+2018/08/21 20:06:23 [info] [application] [User 1, 85.253.71.69] Sending command "server 1:refresh" to daemon 1
+2018/08/21 20:06:23 [info] [application] [User 1, 85.253.71.69] Updated server 1
+2018/08/21 20:06:28 [info] [application] [User 1, 85.253.71.69] Sending command "server 1:refresh" to daemon 1
+2018/08/21 20:06:28 [info] [application] [User 1, 85.253.71.69] Updated server 1
+2018/08/21 20:06:31 [info] [application] [User 1, 85.253.71.69] Sending command "server 1:refresh" to daemon 1
+2018/08/21 20:06:31 [info] [application] [User 1, 85.253.71.69] Updated server 1
+2018/08/21 20:17:26 [info] [application] [User 1, 85.253.71.69] Sending command "server 1:start" to daemon 1
+2018/08/21 20:19:08 [info] [application] [User 1, 85.253.71.69] Sending command "server 1:get_params" to daemon 1
+2018/08/21 20:20:44 [info] [application] [User 1, 85.253.71.69] Sending command "listtemplates" to daemon 1
+2018/08/21 20:21:00 [info] [application] [User 1, 85.253.71.69] Sending command "server 1:cfgfile check:server.properties::" to daemon 1
+2018/08/21 20:21:00 [info] [application] [User 1, 85.253.71.69] Sending command "server 1:cfgfile check:ops.txt::" to daemon 1
+2018/08/21 20:21:00 [info] [application] [User 1, 85.253.71.69] Sending command "server 1:cfgfile check:banned-ips.txt::" to daemon 1
+2018/08/21 20:21:00 [info] [application] [User 1, 85.253.71.69] Sending command "server 1:cfgfile check:banned-players.txt::" to daemon 1
+2018/08/21 20:21:00 [info] [application] [User 1, 85.253.71.69] Sending command "server 1:cfgfile check:white-list.txt::" to daemon 1
+2018/08/21 20:21:00 [info] [application] [User 1, 85.253.71.69] Sending command "server 1:cfgfile check:[^.]+.(txt|yml|csv):plugins/*/:" to daemon 1
+2018/08/21 20:21:00 [info] [application] [User 1, 85.253.71.69] Sending command "server 1:cfgfile check:ops.json::" to daemon 1
+2018/08/21 20:21:00 [info] [application] [User 1, 85.253.71.69] Sending command "server 1:cfgfile check:banned-ips.json::" to daemon 1
+2018/08/21 20:21:00 [info] [application] [User 1, 85.253.71.69] Sending command "server 1:cfgfile check:banned-players.json::" to daemon 1
+2018/08/21 20:21:00 [info] [application] [User 1, 85.253.71.69] Sending command "server 1:cfgfile check:whitelist.json::" to daemon 1
+2018/08/21 20:21:00 [info] [application] [User 1, 85.253.71.69] Sending command "server 1:cfgfile check:eula.txt::" to daemon 1
+2018/08/21 20:21:00 [info] [application] [User 1, 85.253.71.69] Sending command "server 1:cfgfile check:[Pp]ermissions.[Jj][Aa][Rr]:plugins/:" to daemon 1
+2018/08/21 20:21:06 [info] [application] [User 1, 85.253.71.69] Sending command "server 1:cfgfile getproperties:server.properties:.:" to daemon 1
+2018/08/21 20:21:59 [info] [application] [User 1, 85.253.71.69] Sending command "server 1:cfgfile setproperties:server.properties:.:allow-flight=false ;allow-nether=true ;difficulty=1 ;enable-query=false ;enable-rcon=false ;force-gamemode=false ;gamemode=0 ;generate-structures=true ;generator-settings= ;hardcore=false ;hellworld=true ;level-seed= ;level-type=DEFAULT ;max-build-height=256 ;motd=My test server ;online-mode=false ;player-idle-timeout=0 ;pvp=true ;resource-pack= ;snooper-enabled=true ;spawn-animals=true ;spawn-monsters=true ;spawn-npcs=true ;texture-pack= ;view-distance=10 ;white-list=false ;max-tick-time=60000 ;op-permission-level=4 ;announce-player-achievements=true ;enable-command-block=false ;network-compression-threshold=256 ;max-world-size=29999984 ;resource-pack-sha1= ;prevent-proxy-connections=false ;use-native-transport=true ;" to daemon 1
+2018/08/21 20:21:59 [info] [application] [User 1, 85.253.71.69] Sending command "server 1:cfgfile check:server.properties::" to daemon 1
+2018/08/21 20:21:59 [info] [application] [User 1, 85.253.71.69] Sending command "server 1:cfgfile check:ops.txt::" to daemon 1
+2018/08/21 20:21:59 [info] [application] [User 1, 85.253.71.69] Sending command "server 1:cfgfile check:banned-ips.txt::" to daemon 1
+2018/08/21 20:21:59 [info] [application] [User 1, 85.253.71.69] Sending command "server 1:cfgfile check:banned-players.txt::" to daemon 1
+2018/08/21 20:21:59 [info] [application] [User 1, 85.253.71.69] Sending command "server 1:cfgfile check:white-list.txt::" to daemon 1
+2018/08/21 20:21:59 [info] [application] [User 1, 85.253.71.69] Sending command "server 1:cfgfile check:[^.]+.(txt|yml|csv):plugins/*/:" to daemon 1
+2018/08/21 20:21:59 [info] [application] [User 1, 85.253.71.69] Sending command "server 1:cfgfile check:ops.json::" to daemon 1
+2018/08/21 20:21:59 [info] [application] [User 1, 85.253.71.69] Sending command "server 1:cfgfile check:banned-ips.json::" to daemon 1
+2018/08/21 20:21:59 [info] [application] [User 1, 85.253.71.69] Sending command "server 1:cfgfile check:banned-players.json::" to daemon 1
+2018/08/21 20:21:59 [info] [application] [User 1, 85.253.71.69] Sending command "server 1:cfgfile check:whitelist.json::" to daemon 1
+2018/08/21 20:21:59 [info] [application] [User 1, 85.253.71.69] Sending command "server 1:cfgfile check:eula.txt::" to daemon 1
+2018/08/21 20:21:59 [info] [application] [User 1, 85.253.71.69] Sending command "server 1:cfgfile check:[Pp]ermissions.[Jj][Aa][Rr]:plugins/:" to daemon 1
+2018/08/21 20:22:04 [info] [application] [User 1, 85.253.71.69] Sending command "server 1:cfgfile getproperties:eula.txt:.:" to daemon 1
+2018/08/21 20:22:06 [info] [application] [User 1, 85.253.71.69] Sending command "server 1:cfgfile setproperties:eula.txt:.:eula=true ;" to daemon 1
+2018/08/21 20:22:06 [info] [application] [User 1, 85.253.71.69] Sending command "server 1:cfgfile check:server.properties::" to daemon 1
+2018/08/21 20:22:06 [info] [application] [User 1, 85.253.71.69] Sending command "server 1:cfgfile check:ops.txt::" to daemon 1
+2018/08/21 20:22:06 [info] [application] [User 1, 85.253.71.69] Sending command "server 1:cfgfile check:banned-ips.txt::" to daemon 1
+2018/08/21 20:22:06 [info] [application] [User 1, 85.253.71.69] Sending command "server 1:cfgfile check:banned-players.txt::" to daemon 1
+2018/08/21 20:22:06 [info] [application] [User 1, 85.253.71.69] Sending command "server 1:cfgfile check:white-list.txt::" to daemon 1
+2018/08/21 20:22:06 [info] [application] [User 1, 85.253.71.69] Sending command "server 1:cfgfile check:[^.]+.(txt|yml|csv):plugins/*/:" to daemon 1
+2018/08/21 20:22:06 [info] [application] [User 1, 85.253.71.69] Sending command "server 1:cfgfile check:ops.json::" to daemon 1
+2018/08/21 20:22:06 [info] [application] [User 1, 85.253.71.69] Sending command "server 1:cfgfile check:banned-ips.json::" to daemon 1
+2018/08/21 20:22:06 [info] [application] [User 1, 85.253.71.69] Sending command "server 1:cfgfile check:banned-players.json::" to daemon 1
+2018/08/21 20:22:06 [info] [application] [User 1, 85.253.71.69] Sending command "server 1:cfgfile check:whitelist.json::" to daemon 1
+2018/08/21 20:22:06 [info] [application] [User 1, 85.253.71.69] Sending command "server 1:cfgfile check:eula.txt::" to daemon 1
+2018/08/21 20:22:06 [info] [application] [User 1, 85.253.71.69] Sending command "server 1:cfgfile check:[Pp]ermissions.[Jj][Aa][Rr]:plugins/:" to daemon 1
+2018/08/21 20:22:53 [info] [application] [User 1, 85.253.71.69] Sending command "updatejar list :" to all daemons
+2018/08/21 20:26:22 [info] [application] [User 1, 85.253.71.69] Sending command "server 1:get_params" to daemon 1
+2018/08/21 20:26:30 [info] [application] [User 1, 85.253.71.69] Sending command "server 1:cfgfile check:server.properties::" to daemon 1
+2018/08/21 20:26:30 [info] [application] [User 1, 85.253.71.69] Sending command "server 1:cfgfile check:ops.txt::" to daemon 1
+2018/08/21 20:26:30 [info] [application] [User 1, 85.253.71.69] Sending command "server 1:cfgfile check:banned-ips.txt::" to daemon 1
+2018/08/21 20:26:30 [info] [application] [User 1, 85.253.71.69] Sending command "server 1:cfgfile check:banned-players.txt::" to daemon 1
+2018/08/21 20:26:30 [info] [application] [User 1, 85.253.71.69] Sending command "server 1:cfgfile check:white-list.txt::" to daemon 1
+2018/08/21 20:26:30 [info] [application] [User 1, 85.253.71.69] Sending command "server 1:cfgfile check:[^.]+.(txt|yml|csv):plugins/*/:" to daemon 1
+2018/08/21 20:26:30 [info] [application] [User 1, 85.253.71.69] Sending command "server 1:cfgfile check:ops.json::" to daemon 1
+2018/08/21 20:26:30 [info] [application] [User 1, 85.253.71.69] Sending command "server 1:cfgfile check:banned-ips.json::" to daemon 1
+2018/08/21 20:26:30 [info] [application] [User 1, 85.253.71.69] Sending command "server 1:cfgfile check:banned-players.json::" to daemon 1
+2018/08/21 20:26:30 [info] [application] [User 1, 85.253.71.69] Sending command "server 1:cfgfile check:whitelist.json::" to daemon 1
+2018/08/21 20:26:30 [info] [application] [User 1, 85.253.71.69] Sending command "server 1:cfgfile check:eula.txt::" to daemon 1
+2018/08/21 20:26:30 [info] [application] [User 1, 85.253.71.69] Sending command "server 1:cfgfile check:[Pp]ermissions.[Jj][Aa][Rr]:plugins/:" to daemon 1
+2018/08/21 20:26:36 [info] [application] [User 1, 85.253.71.69] Sending command "server 1:cfgfile getproperties:server.properties:.:" to daemon 1
+2018/08/21 20:26:57 [info] [application] [User 1, 85.253.71.69] Sending command "server 1:cfgfile setproperties:server.properties:.:allow-flight=false ;allow-nether=true ;difficulty=1 ;enable-query=false ;enable-rcon=false ;force-gamemode=false ;gamemode=0 ;generate-structures=true ;generator-settings= ;hardcore=false ;hellworld=true ;level-seed= ;level-type=DEFAULT ;max-build-height=256 ;motd=My test server ;online-mode=false ;player-idle-timeout=0 ;pvp=true ;resource-pack= ;snooper-enabled=true ;spawn-animals=true ;spawn-monsters=true ;spawn-npcs=true ;texture-pack= ;view-distance=10 ;white-list=false ;max-tick-time=60000 ;op-permission-level=4 ;announce-player-achievements=true ;enable-command-block=false ;network-compression-threshold=256 ;max-world-size=29999984 ;resource-pack-sha1= ;prevent-proxy-connections=false ;use-native-transport=true ;" to daemon 1
+2018/08/21 20:26:57 [info] [application] [User 1, 85.253.71.69] Sending command "server 1:cfgfile check:server.properties::" to daemon 1
+2018/08/21 20:26:57 [info] [application] [User 1, 85.253.71.69] Sending command "server 1:cfgfile check:ops.txt::" to daemon 1
+2018/08/21 20:26:57 [info] [application] [User 1, 85.253.71.69] Sending command "server 1:cfgfile check:banned-ips.txt::" to daemon 1
+2018/08/21 20:26:57 [info] [application] [User 1, 85.253.71.69] Sending command "server 1:cfgfile check:banned-players.txt::" to daemon 1
+2018/08/21 20:26:57 [info] [application] [User 1, 85.253.71.69] Sending command "server 1:cfgfile check:white-list.txt::" to daemon 1
+2018/08/21 20:26:57 [info] [application] [User 1, 85.253.71.69] Sending command "server 1:cfgfile check:[^.]+.(txt|yml|csv):plugins/*/:" to daemon 1
+2018/08/21 20:26:57 [info] [application] [User 1, 85.253.71.69] Sending command "server 1:cfgfile check:ops.json::" to daemon 1
+2018/08/21 20:26:57 [info] [application] [User 1, 85.253.71.69] Sending command "server 1:cfgfile check:banned-ips.json::" to daemon 1
+2018/08/21 20:26:57 [info] [application] [User 1, 85.253.71.69] Sending command "server 1:cfgfile check:banned-players.json::" to daemon 1
+2018/08/21 20:26:57 [info] [application] [User 1, 85.253.71.69] Sending command "server 1:cfgfile check:whitelist.json::" to daemon 1
+2018/08/21 20:26:57 [info] [application] [User 1, 85.253.71.69] Sending command "server 1:cfgfile check:eula.txt::" to daemon 1
+2018/08/21 20:26:57 [info] [application] [User 1, 85.253.71.69] Sending command "server 1:cfgfile check:[Pp]ermissions.[Jj][Aa][Rr]:plugins/:" to daemon 1
+2018/08/21 20:27:02 [info] [application] [User 1, 85.253.71.69] Sending command "server 1:restart" to daemon 1
+2018/08/22 07:26:06 [info] [application] Invalid cookie IP for admin. Logging out.
+2018/08/22 07:26:17 [info] [application] [User 1, 91.203.29.34] Successful login: admin, forwarding to: /multicraft/index.php?r=server/index&my=1
+2018/08/22 07:27:23 [info] [application] [User 1, 91.203.29.34] Using SHA512 password
+2018/08/22 07:27:23 [info] [application] [User 1, 91.203.29.34] Created user 2
+2018/08/22 07:27:32 [info] [application] [User 1, 91.203.29.34] Generated API key for user 2
+2018/08/22 07:27:38 [info] [application] [User 1, 91.203.29.34] Updated user 2
+2018/08/22 07:27:43 [info] [application] [User 1, 91.203.29.34] Updated user 2
+2018/08/22 07:28:01 [info] [application] [User 2, 91.203.29.34] Successful login: sam, forwarding to: /multicraft/index.php?r=server/index&my=1
+2018/08/22 07:28:23 [info] [application] [User 1, 91.203.29.34] Successful login: admin, forwarding to: /multicraft/index.php?r=server/index&my=1
+2018/08/22 07:46:56 [info] [application] [User 1, 91.203.29.34] Sending command "server 1:refresh" to daemon 1
+2018/08/22 07:46:56 [info] [application] [User 1, 91.203.29.34] Changing owner of server 1 from 1 to 2
+2018/08/22 07:46:56 [info] [application] [User 1, 91.203.29.34] Updated server 1
+2018/08/22 07:47:08 [info] [application] [User 2, 91.203.29.34] Successful login: sam, forwarding to: /multicraft/index.php?r=server/index&my=1
+2018/08/22 07:49:28 [info] [application] [User 2, 91.203.29.34] Sending command "server 1:load player 1" to daemon 1
+2018/08/22 07:49:28 [info] [application] [User 2, 91.203.29.34] Updated player 1
+2018/08/22 07:50:16 [info] [application] [User 2, 91.203.29.34] Sending command "server 1:mc:give bloodex enchanted_book 1" to daemon 1
+2018/08/22 07:51:54 [info] [application] [User 2, 91.203.29.34] Sending command "server 1:load player 1" to daemon 1
+2018/08/22 07:51:54 [info] [application] [User 2, 91.203.29.34] Updated player 1
+2018/08/22 07:53:11 [info] [application] [User 1, 91.203.29.34] Successful login: admin, forwarding to: /multicraft/index.php?r=server/index&my=1
+2018/08/25 07:33:31 [error] [exception.CHttpException.400] [User , 85.253.71.69] exception 'CHttpException' with message 'The CSRF token could not be verified.' in /var/www/html/manage/protected/yii/web/CHttpRequest.php:1362
+Stack trace:
+#0 /var/www/html/manage/protected/yii/base/CComponent.php(562): CHttpRequest->validateCsrfToken(Object(CEvent))
+#1 /var/www/html/manage/protected/yii/base/CApplication.php(212): CComponent->raiseEvent('onBeginRequest', Object(CEvent))
+#2 /var/www/html/manage/protected/yii/base/CApplication.php(183): CApplication->onBeginRequest(Object(CEvent))
+#3 /var/www/html/manage/index.php(23): CApplication->run()
+#4 {main}
+REQUEST_URI=/manage/index.php?r=site/login
+HTTP_REFERER=http://getmc.club/login.php
+---
