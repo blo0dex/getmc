@@ -228,7 +228,7 @@ class UserController extends Controller
         require('MulticraftAPI.php');
         $api = new MulticraftAPI('http://getmc.club/manage/api.php', 'admin', 'eKfeKMUaL$WxSU');
         //$server_id = $api->createServerOn(array('daemon_id', 'no_commands', 'no_setup_script'), array(0, 0, 0));
-        $response = json_decode($api->createServerOn());
+        $response = $api->createServerOn();
         $server_id = $response['data']['id'];
         throw new CHttpException(404, Yii::t('mc', json_encode($server_id)));
 
