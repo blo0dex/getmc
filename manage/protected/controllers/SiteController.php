@@ -138,6 +138,15 @@ class SiteController extends Controller
             {
                 $model->save(false);
                 Yii::log('New user registered: '.$model->name.' ('.$model->id.')');
+
+                // Create server for user
+                require('MulticraftAPI.php');
+                $api = new MulticraftAPI('http://getmc.club/manage/api.php', 'admin', 'eKfeKMUaL$WxSU');
+                $response = $api->createServerOn();
+                $server_id = $response['data']['id'];
+                $api->setServerOwner($server_id, $model->id);
+                Yii::log('Created server id: '.$server_id.' for user '.$model->id);
+
                 $this->redirect(array('site/login', 'registered'=>true));
             }
         }
