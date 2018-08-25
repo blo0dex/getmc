@@ -224,6 +224,11 @@ class UserController extends Controller
 
     public function actionIndex()
     {
+        // Create server for user
+        require('MulticraftAPI.php');
+        $api = new MulticraftAPI('http://getmc.club/manage/api.php', 'admin', 'eKfeKMUaL$WxSU');
+        throw new CHttpException(404, Yii::t('mc', json_encode($api->getServerStatus(1, true))));
+
         if (!Yii::app()->user->isStaff() && Yii::app()->params['hide_userlist'])
             throw new CHttpException(403, Yii::t('mc', 'You are not authorized to perform this action.'));
         $model=new User(Yii::app()->user->isStaff() ? 'search' : 'userSearch');
@@ -289,11 +294,6 @@ class UserController extends Controller
 
     public function saveButton()
     {
-        // Create server for user
-        require('MulticraftAPI.php');
-        $api = new MulticraftAPI('http://getmc.club/manage/api.php', 'admin', 'eKfeKMUaL$WxSU');
-        throw new CHttpException(404, Yii::t('mc', json_encode($api->getServerStatus(1, true))));
-
         $this->attribs[] = array('label'=>'', 'type'=>'raw',
             'value'=>CHtml::submitButton('Save'),
             'hint'=>'');
