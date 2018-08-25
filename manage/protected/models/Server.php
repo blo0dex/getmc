@@ -212,7 +212,7 @@ class Server extends ActiveRecord
             'players' => Yii::t('mc', 'Player Slots'),
             'memory' => Yii::t('mc', 'Memory'),
             'start_memory' => Yii::t('mc', 'Startup Memory'),
-            'jarfile' => Yii::t('mc', 'JAR File'),
+            'jarfile' => Yii::t('mc', 'Server version'),
             'autostart' => Yii::t('mc', 'Autostart'),
             'default_level' => Yii::t('mc', 'Default Role'),
             'daemon_id' => Yii::t('mc', 'Daemon'),
