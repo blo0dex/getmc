@@ -227,7 +227,8 @@ class UserController extends Controller
         // Create server for user
         require('MulticraftAPI.php');
         $api = new MulticraftAPI('http://getmc.club/manage/api.php', 'admin', 'eKfeKMUaL$WxSU');
-        $server_id = $api->createServerOn(array('daemon_id', 'no_commands', 'no_setup_script'), array(0, 0, 0));
+        //$server_id = $api->createServerOn(array('daemon_id', 'no_commands', 'no_setup_script'), array(0, 0, 0));
+        $server_id = $api->createServerOn();
         throw new CHttpException(404, Yii::t('mc', json_encode($server_id)));
 
         if (!Yii::app()->user->isStaff() && Yii::app()->params['hide_userlist'])
