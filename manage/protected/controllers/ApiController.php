@@ -677,6 +677,8 @@ class ApiController extends CController
                 $model->createDefaultCommands();
             if (!$no_setup_script)
                 McBridge::get()->serverCmd($model->id, 'run_s:builtin:script setup');
+            $model->jarfile = 'vanilla-1.13.jar';
+            $model->save();
             $this->success();
         }
     }
